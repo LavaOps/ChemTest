@@ -1,0 +1,18 @@
+#tsl for subtraction
+Parameters:
+	Input_1:
+       Even.	[property even_x1]
+	   Odd.		[property odd_x1]	
+	   Zero.	[property zero_x1]		
+	   Max.		[property max_x1]			
+	Input_2:
+       Even.	[property even_x2]			
+	   Odd.		[property odd_x2]			
+	   Zero.	[property zero_x2]		
+	   Max.		[property max_x2]						
+
+Environments:
+    Initial Concentration:
+	   50.
+	   100. [if !(zero_x1 && zero_x2)]
+	   200. [if !(zero_x1 && zero_x2)]

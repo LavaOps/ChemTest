@@ -1,0 +1,15 @@
+#tsl for hailstone
+
+Parameters:
+	X1:
+		1) Even
+		2) Odd
+		SV) 0
+		3) MAX
+
+
+Environment: 
+	Initial Concentration maximum:
+		1) 50
+		2) 100
+		3) 200

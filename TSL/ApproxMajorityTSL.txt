@@ -1,0 +1,25 @@
+#tsl for the approximate majority
+Parameters:
+	Input_1:
+       Small_even_i1.
+	   Small_odd_i1.		
+	   Med_even_i1.
+	   Med_odd_i1.
+	   Large_even_i1.
+   	   Large_odd_i1.
+	   Zero_i1.		[property zero1]
+	   Max_i1.		
+	Input_2:
+       Small_even_i2.
+	   Small_odd_i2.		
+	   Med_even_i2.
+	   Med_odd_i2.
+	   Large_even_i2.
+   	   Large_odd_i2.
+	   Zero_i2.		[property zero2]
+	   Max_i2.	
+Environments:
+        Initial Concentration:
+	   50.  
+	   100. [if !(zero1 && zero2)]
+	   200. [if !(zero1 && zero2)]
